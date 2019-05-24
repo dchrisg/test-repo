@@ -1,0 +1,460 @@
+body.ctf_7_x_styles, div.ctf_7_x_styles {
+  margin: 0; 
+  color: #404e54;
+  background-color: #e9f0f2;
+  line-height: 18px;
+  padding-top: 41px;
+  font-family:  'SourceSansPro-Regular', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+*[dir='rtl'] .ctf_7_x_styles .navbar-nav .navbar-brand, *[dir='rtl'] .ctf_7_x_styles .navbar-nav .nav,
+*[dir='rtl'] .ctf_7_x_styles .navbar-nav .nav > li, *[dir='rtl'] .ctf_7_x_styles .nav-tabs > li, *[dir='rtl'] .ctf_7_x_styles .nav-pills > li {
+  float: right;
+}
+
+*[dir='rtl'] .ctf_7_x_styles .navbar-nav .nav.pull-right, *[dir='rtl'] .ctf_7_x_styles .pull-right {
+  float: left;
+}
+
+@media (max-width: 979px) {
+  .ctf_7_x_styles .navbar-nav .navbar-brand.img {
+    padding: 0 20px 0;
+  }
+  .ctf_7_x_styles .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ctf_7_x_styles .navbar-fixed-top,
+  .ctf_7_x_styles .navbar-fixed-bottom,
+  .ctf_7_x_styles .navbar-static-top {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.ctf_7_x_styles .navbar-nav .nav > li > a.img {
+  padding: 5px 5px 6px;
+}
+
+.ctf_7_x_styles .navbar-nav .nav > li > a.login-user {
+  padding-left: 0;
+}
+
+.ctf_7_x_styles .navbar-nav .responsive-on .nav > li > a.login-user {
+  padding-left: 7px;
+}
+
+.ctf_7_x_styles .navbar-nav .nav > li > a.help-icon {
+  padding: 7px 2px 2px 3px;
+}
+
+.ctf_7_x_styles .navbar-nav .divider-vertical {
+  margin: 0;
+}
+
+.ctf_7_x_styles .tab-content {
+  overflow: visible;
+}
+
+.ctf_7_x_styles .navbar-form .input-append, .navbar-form .input-prepend {
+  margin-bottom: 0;
+}
+
+.ctf_7_x_styles .navbar-nav .nav > li .quick-search-field-container .dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.ctf_7_x_styles .navbar-nav .nav > li .quick-search-field-container .dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+.ctf_7_x_styles .navbar-nav .pull-right > li .quick-search-field-container .dropdown-menu {  
+  left: -10px;
+}
+
+.ctf_7_x_styles .navbar-nav .pull-right > li .quick-search-field-container .dropdown-menu:before {
+  right: 12px;
+  left: auto;
+}
+
+.ctf_7_x_styles .navbar-nav .pull-right > li .quick-search-field-container .dropdown-menu:after {
+  right: 13px;
+  left: auto;
+}
+
+.ctf_7_x_styles ul.widgets-topnav-elements.nav.pull-right  > li.divider-vertical {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ctf_7_x_styles .navbar-nav {
+  font-weight: bold;
+  margin: 0;
+}
+
+.ctf_7_x_styles .navbar-inner {
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.ctf_7_x_styles .navbar-nav .navbar-brand {
+  padding: 0 10px;
+}
+
+.ctf_7_x_styles .navbar-nav .navbar-brand img {
+  max-height: 40px;
+}
+
+.ctf_7_x_styles .no-brand  {
+  width: 1px;
+  height: 1px;
+  float: left;
+}
+
+.ctf_7_x_styles .ctf-help-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.ctf_7_x_styles .navbar-nav > li a.ctf-icon-link {
+  padding: 5px 8px 0 8px;
+}
+
+
+/*
+*******************************************************************
+ * Styles for the top tool menu for Projects, My Workspace, Admin *
+*******************************************************************
+*/
+.core-mid-menu-bar {
+  background: #fff;
+}
+
+.iaftopnav .core-mid-menu-bar, .topnav .core-mid-menu-bar {
+  height: 55px;
+}
+
+.sprite-personal-toolbar, .sprite-admin-toolbar, .sprite-project-toolbar {
+  display: inline-block;
+  background-image: url('/sf-images/pngs/linecons-sprite.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-image: url('/sf-images/svgs/linecons-sprite.svg');
+  background-size: 2100px 60px
+}
+
+.sprite-personal_my_page, .sprite-personal_dashboard,
+.sprite-personal_my_projects, .sprite-personal_my_monitoring,
+.sprite-personal_my_settings, .sprite-admin_projects,  .sprite-admin_reports,
+.sprite-admin_project_groups, .sprite-admin_users, .sprite-admin_groups,
+.sprite-admin_roles, .sprite-admin_integrations, .sprite-admin_integrated_app,
+.sprite-admin_categories, .sprite-admin_system_tools, .sprite-admin_license {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 12px;  
+}
+
+.sprite-admin_projects {
+  background-position: -208px 0;
+}
+
+.sprite-admin_reports{
+  background-position: -841px 0;
+}
+
+.sprite-admin_project_groups {
+  background-position: -238px 0;
+}
+
+.sprite-admin_users{
+  background-position: -58px 0;
+}
+
+.sprite-admin_groups {
+  background-position: -88px 0;
+}
+
+.sprite-admin_roles {
+  background-position: -118px 0;
+}
+
+.sprite-admin_integrations {
+  background-position: -268px 0;
+}
+
+.sprite-admin_integrated_app {
+  background-position: -298px 0;
+}
+
+.sprite-admin_categories {
+  background-position: -872px 0;
+}
+
+.sprite-admin_system_tools {
+  background-position: -480px 0;
+}
+
+.sprite-admin_license {
+  background-position: -510px 0;
+}
+
+
+a:hover .sprite-admin_projects,
+.Selected .sprite-admin_projects {
+  background-position: -208px -32px;
+}
+
+a:hover .sprite-admin_reports,
+.Selected .sprite-admin_reports {
+  background-position: -841px -32px;
+}
+
+a:hover .sprite-admin_project_groups,
+.Selected .sprite-admin_project_groups {
+  background-position: -238px -32px;
+}
+
+a:hover .sprite-admin_users,
+.Selected .sprite-admin_users {
+  background-position: -58px -32px;
+}
+
+a:hover .sprite-admin_groups,
+.Selected .sprite-admin_groups {
+  background-position: -88px -32px;
+}
+
+a:hover .sprite-admin_roles,
+.Selected .sprite-admin_roles {
+  background-position: -118px -32px;
+}
+
+a:hover .sprite-admin_integrations,
+.Selected .sprite-admin_integrations {
+  background-position: -268px -32px;
+}
+
+
+a:hover .sprite-admin_integrated_app,
+.Selected .sprite-admin_integrated_app {
+  background-position: -298px -32px;
+}
+
+a:hover .sprite-admin_categories,
+.Selected .sprite-admin_categories {
+  background-position: -872px -32px;
+}
+
+a:hover .sprite-admin_system_tools,
+.Selected .sprite-admin_system_tools {
+  background-position: -480px -32px;
+}
+
+a:hover .sprite-admin_license,
+.Selected .sprite-admin_license {
+  background-position: -510px -32px;
+}
+
+.sprite-personal_my_page {
+  background-position: -147px 0
+}
+
+.sprite-personal_dashboard {
+  background-position: -359px 0;
+}
+
+.sprite-personal_my_projects {
+  background-position: -209px 0;
+}
+
+.sprite-personal_my_monitoring {
+  background-position: -389px 0;
+}
+
+.sprite-personal_my_settings {
+  background-position: -179px 0;
+}
+
+a:hover .sprite-personal_my_page,
+.Selected .sprite-personal_my_page {
+  background-position: -147px -32px
+}
+
+a:hover .sprite-personal_dashboard,
+.Selected .sprite-personal_dashboard {
+  background-position: -359px -32px
+}
+
+a:hover .sprite-personal_my_projects,
+.Selected .sprite-personal_my_projects {
+  background-position: -209px -32px
+}
+
+a:hover .sprite-personal_my_monitoring,
+.Selected .sprite-personal_my_monitoring {
+  background-position: -389px -32px
+}
+
+a:hover .sprite-personal_my_settings,
+.Selected .sprite-personal_my_settings {
+  background-position: -179px -32px
+}
+
+.sprite-project-buildtesticon, .sprite-project-documentsicon, .sprite-project-forumsicon,
+.sprite-project-homeicon, .sprite-project-projectadminicon, .sprite-project-projectinfoicon, .sprite-project-releasesicon,
+.sprite-project-reportsicon, .sprite-project-scmicon, .sprite-project-tasksicon,
+.sprite-project-trackericon, .sprite-project-wikiicon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 12px;  
+}
+
+.sprite-project-homeicon {
+  background-position: -450px 0;
+}
+
+.sprite-project-trackericon {
+  background-position: -540px 0;
+}
+
+.sprite-project-tasksicon {
+  background-position: -420px 0;
+}
+
+.sprite-project-scmicon {
+  background-position: -570px 0;
+}
+
+.sprite-project-buildtesticon {
+  background-position: -600px 0;
+}
+
+.sprite-project-releasesicon {
+  background-position: -630px 0;
+}
+
+.sprite-project-documentsicon {
+  background-position: -900px 0;
+}
+
+.sprite-project-wikiicon {
+  background-position: -660px 0;
+}
+
+.sprite-project-forumsicon {
+  background-position: -690px 0;
+}
+
+.sprite-project-reportsicon {
+  background-position: -840px 0;
+}
+
+.sprite-project-projectadminicon {
+  background-position: -782px 0;
+}
+
+.sprite-project-projectinfoicon {
+  background-position: -782px 0;
+}
+
+/* hover */
+a:hover .sprite-project-homeicon,
+.Selected .sprite-project-homeicon {
+  background-position: -450px -32px;
+}
+
+a:hover .sprite-project-trackericon,
+.Selected .sprite-project-trackericon {
+  background-position: -540px -32px;
+}
+
+a:hover .sprite-project-tasksicon,
+.Selected .sprite-project-tasksicon {
+  background-position: -420px -32px;
+}
+
+a:hover .sprite-project-scmicon,
+.Selected .sprite-project-scmicon {
+  background-position: -570px -32px;
+}
+
+a:hover .sprite-project-buildtesticon,
+.Selected .sprite-project-buildtesticon {
+  background-position: -600px -32px;
+}
+
+a:hover .sprite-project-releasesicon,
+.Selected .sprite-project-releasesicon {
+  background-position: -630px -32px;
+}
+
+a:hover .sprite-project-documentsicon,
+.Selected .sprite-project-documentsicon {
+  background-position: -900px -32px;
+}
+
+a:hover .sprite-project-wikiicon,
+.Selected .sprite-project-wikiicon {
+  background-position: -660px -32px;
+}
+
+a:hover .sprite-project-forumsicon,
+.Selected .sprite-project-forumsicon {
+  background-position: -690px -32px;
+}
+
+a:hover .sprite-project-reportsicon,
+.Selected .sprite-project-reportsicon {
+  background-position: -840px -32px;
+}
+
+a:hover .sprite-project-projectadminicon,
+.Selected .sprite-project-projectadminicon {
+  background-position: -782px -32px;
+}
+
+a:hover .sprite-project-projectinfoicon,
+.Selected .sprite-project-projectinfoicon {
+  background-position: -782px -32px;
+}
+
+.ButtonRow img.integrated-linked-applications {
+  height: 25px;
+  margin-bottom: 12px
+}
+
+/*
+***************************************************
+ * Styles for the footer						  *
+***************************************************
+*/
+
+.footer, #footer {
+  padding: 20px 0;
+  display: block;  
+  color: #404e54;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  clear: both
+}
